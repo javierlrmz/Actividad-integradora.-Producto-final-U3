@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.encabezado {
+  max-width: 800px;
+  margin: 40px;
+}
+.logo {
+  text-align: center;
+  width: 200px;
+  color: rgb(0, 162, 255);
+  float: left;
+}
+.ruta {
+  color: rgb(255, 136, 0);
+  padding-left: 40vw;
+  padding-top: 30px;
+}
+.menu {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(218, 218, 218);
+}
+.menu li {
+  float: left;
+  border-right: 3px solid rgb(177, 177, 177);
+}
+.menu a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+.menu li a:hover:not(.active) {
+  background-color: rgb(192, 192, 192);
+}
+.contenido {
+  margin: 5vw 5vw;
+}
+.columna1 {
+  float: left;
+}
+.columna1 li {
+  list-style-type: none;
+  padding-bottom: 2vw;
+  padding-right: 3vw;
+}
+.columna2 input {
+  border-radius: 5px;
+  height: 25px;
+  margin-bottom: 1.5vw;
+  display: block;
+}
+.b1 {
+  padding: 0.5vw 2vw;
+  color: red;
+}
+.b2 {
+  padding: 0.5vw 2vw;
+  color: green;
+}
+.contenido2 {
+  margin: 3vw;
+}
+.contenido2 label {
+  font-size: 20px;
+}
+.contenido2 input {
+  border-radius: 8px;
+  width: 250px;
+  height: 30px;
+}
+.contenido2 button {
+  font-weight: bold;
+  margin: 30px 0 0 135px;
+  border-radius: 10px;
+  background-color: rgb(207, 207, 207);
+  font-size: 16px;
+  color: black;
+  padding: 7px 30px;
+  display: block;
+}
+.menu2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.menu2 ul {
+  border-top: 3px solid rgb(177, 177, 177);
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(218, 218, 218);
+}
+.menu2 li {
+  border-right: 3px solid rgb(177, 177, 177);
+  float: left;
+}
+.menu2 a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+.menu2 li a:hover:not(.active) {
+  background-color: rgb(192, 192, 192);
+}
+.contenido3 {
+  margin: 30px 40px;
+}
+footer {
+  padding-left: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+.content {
+  text-align: center;
+  height: 600px;
+  width: 900px;
+  margin: 8% 0 0 25%;
+}
+.log {
+  color: rgb(0, 162, 255);
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+.log h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.info {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    "Times New Roman", Times, serif;
+  padding-bottom: 40px;
+}
+.login label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.login {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.login input {
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
+.entrar button {
+  background-color: rgb(0, 162, 255);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.entrar button a {
+  color: white;
+  text-decoration: none;
+}
